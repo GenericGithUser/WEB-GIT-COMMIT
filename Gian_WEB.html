@@ -5,8 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            background: rgb(9,69,121);
+            background: linear-gradient(28deg, rgba(9,69,121,1) 30%, rgba(10,122,5,1) 100%);
+            min-height: 100%;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+        }
+        .header{
+            font-size: 5ch;
+        }
+        .helloscroll{
+            background-color: beige;
+            border: 3px solid blue;
+            box-shadow: 0px 0px 5px 1px yellow;
+        }
+        img{
+            width: 300px;
+            margin-top: 30px;
+    
+            border: 5px solid wheat;
+            border-radius: 50%;
+            box-shadow: 0px 5px 5px 0px black;
+        }
+        .test{
+            margin-top: 30px;
+        }
+
+        a{
+            text-decoration: none;
+            color: wheat;
+            transition: all 1s ease-in-out;
+
+        }
+        a:hover{
+            font-size: 3ch;
+        }
+        .label{
+            color: antiquewhite;
+            margin-top: 10px;
+
+        }
+
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1 class="header">
+            Hello! AM GIAN
+        </h1>
+        <h2 class="helloscroll">
+        <!--DO NOT DO THIS, MARQUEE IS DEPRECATED-->
+            <marquee>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</marquee>
+        </h2>
+        <img src="pic.jpeg" alt="">
+        <h1 class="label">GLORIOUS MANUL OVERLORD</h1>
+
+        <h2 class="test">TEST WEBSITE</h2>
+        <a href="https://genericportfolio.vercel.app" target="_blank"><h2>➡️ CLICK TO MAIN SITE ⬅️ </h2></a>
+        
+    </div>
+
     
 </body>
-</html>
+</html>`
